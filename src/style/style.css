@@ -8,14 +8,13 @@ body {
     font-family: Poppins, sans-serif;
 }
 
-header {
+.container {
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+    padding-top: 40px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
 }
-
-
 
 .logo {
     cursor: pointer;
@@ -24,6 +23,9 @@ header {
 
 .nav-list {
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-list li {
@@ -83,10 +85,8 @@ header {
     top:1px;
 }
 
-.container {
-    width: 100%;
-    max-width: 1125px;
-    margin: 0 auto;
+.hero-section {
+    padding-top: 60px;
 }
 
 .hero-title {
